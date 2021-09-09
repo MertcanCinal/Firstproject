@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body , html {
+    font-family: "Montserrat" , sans-serif ;
+    font-size: 18px;
+}
+h2 {
+    font-family: "Montserrat" , sans-serif ;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+h3 {
+    font-family: "Montserrat" , sans-serif ;
+    font-size: 24px;
+}
+a {
+    font-family: "Montserrat" , sans-serif ;
+    font-size: 14px;
+}
+header {
+    background:linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.479)), url("../images/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    }
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.header-text p, 
+.meet-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+
+}
+.header-text p::after, 
+.meet-text h2::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #c59a6d;
+    margin: 30px auto;
+
+}
+.header-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    letter-spacing: 0.1em;
+
+}
+nav.menu i {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.header-icon i, 
+.meet-icon i {
+    font-size: 24px;
+    border: 1px solid #c59a6d;
+    padding: 4px 10px;
+    transition: 300ms all;
+    cursor: pointer;
+    color: #c59a6d;
+}
+.header-icon i:hover
+.meet-icon i:hover {
+background-color: #c59a6d;
+color:#fff
+}
+
+#meet {
+padding: 90px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.meet {
+    text-align: center;
+    width: 56%;
+}
+.meet-text p {
+   width: 66%;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+#video {
+   background: linear-gradient(rgba(0,0,0,0.507), rgba(0,0,0,0.527)),
+   url(../images/Layer\ 99.jpg) no-repeat center;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   background-attachment: fixed;
+}
+.video i {
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+    transition: 200ms all;
+}
+.video i:hover {
+    font-size: 48px;
+}
