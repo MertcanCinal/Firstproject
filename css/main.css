@@ -30,7 +30,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    animation: 0ms;
     }
 
 .header-content {
